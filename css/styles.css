@@ -16,6 +16,7 @@ body{
     background-color: #333;
     color: #fff;
     font-family: "Work Sans", sans-serif;
+    line-height: 1.6;
 }
 
 h1{
@@ -24,15 +25,44 @@ h1{
     text-align: center;
 }
 
+h2,
+h3,
+h4,
+h5{
+    margin: 2em 0;
+}
+
 a{
     display: inline-block;
     color: #eb71aa;
+}
+
+p,
+ul,
+ol{
+    margin: 0 auto;
+    max-width: 300px;
+    text-align: left; 
+}
+
+ul,
+ol{
+    width: 80%;
+}
+
+li{
     margin: 0.7em 0;
 }
+
 
 /* Recipes Menu */
 .recipes{
     list-style: none;
     padding: 1em 0 1em 0;
+    text-align: center;
+}
+
+/* Recipes Rules */
+.recipe-container{
     text-align: center;
 }
