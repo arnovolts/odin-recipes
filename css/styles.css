@@ -1,6 +1,7 @@
-/* Reset rules */
+/* || Reset rules */
 html{
     box-sizing: border-box;
+    height: 100%;
 }
 
 *,
@@ -11,58 +12,178 @@ html{
     box-sizing: inherit;
 }
 
-/* General Rules */
+/* || General Rules */
 body{
-    background-color: #333;
+    background-color: #141414;
     color: #fff;
-    font-family: "Work Sans", sans-serif;
+    font-family: "Lato", sans-serif;
     line-height: 1.6;
+    min-height: 100%;
+    position: relative;
 }
 
-h1{
-    color: rgb(241, 241, 63);
-    padding: 1em 0 1em 0;
-    text-align: center;
-}
-
-h2,
-h3,
-h4,
-h5{
-    margin: 2em 0;
-}
-
-a{
+h3,h4{
+    border-bottom: 1px solid #E3B261;
     display: inline-block;
-    color: #eb71aa;
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 67px;
+    margin-bottom: 45px;
 }
 
-p,
-ul,
-ol{
-    margin: 0 auto;
-    max-width: 300px;
-    text-align: left; 
+/* Header rules */
+.header{
+    padding: 3em 0;
+    text-align: center;
 }
 
-ul,
-ol{
-    width: 80%;
+.main-heading{
+    color: #FEF17F;
+    font-family: "Cinzel Decorative", serif;
+    font-size: 67px;
 }
 
-li{
-    margin: 0.7em 0;
-}
-
-
-/* Recipes Menu */
+/* || Card Rules */
 .recipes{
-    list-style: none;
-    padding: 1em 0 1em 0;
-    text-align: center;
+    margin: 0 auto;
+    width: 511px;
 }
 
-/* Recipes Rules */
+.card{
+    background-color: #0D0D0D;
+    border-radius: 16px;
+    display: inline-block;
+    height: 286px;
+    overflow: hidden;
+    width: 240px;
+}
+
+.card:last-child{
+    margin-left: 24px;
+}
+
+.card > .card-thumbnail{
+    height: 119px;
+    width: 240px;
+}
+
+.card-thumbnail img{
+    object-fit: cover;
+}
+
+.card-body{
+    display: inline-block;
+    padding: 1em;
+}
+
+.card-heading{
+    font-size: 18px;
+    font-weight: 900;
+    margin-bottom: 19px;
+}
+
+.card-heading > a{
+    color: #fff;
+}
+
+.card-description{
+    font-size: 14px;
+}
+
+
+/* || Wide Card Rules */
+.card.card-wide{
+    margin-bottom: 54px;
+    height: 156px;
+    width: 100%;
+    
+}
+
+.card.card-wide > .card-thumbnail{
+    border-top-left-radius: 16px;
+    border-bottom-left-radius: 16px;
+    display: inline-block;
+    overflow: hidden;
+    height: inherit;
+    width: 274px;
+    vertical-align: bottom;
+}
+
+.card-wide > .card-body{
+    margin-left: -4px;
+    width: 234px;
+    height: inherit;
+}
+
+/* || Large Card Rules */
+.card.card-lg{
+    padding: 32px 48px 0 48px;
+    height: 553px;
+    width: 100%;
+}
+
+.card-lg-heading{
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 38px;
+}
+
+.card-lg-img{
+    object-fit: cover;
+}
+
+.card-lg-description{
+    font-size: 14px;
+    line-height: 1.7;
+    margin-top: 55px;
+    width: 336px;
+}
+
+/* || Recipe Page Rules */
 .recipe-container{
-    text-align: center;
+    margin: 0 auto;
+    padding-bottom: 100px;
+    width: 511px;
+}
+
+.ingredients, .steps{
+    width: 60%;
+    padding-left: 16px;
+}
+
+.ingredients-item + .ingredients-item,
+.steps-item + .steps-item{
+    margin-top: 16px;
+}
+
+.go-home-link{
+    color:  #E3B261;
+    margin-top: 32px;
+    display: block;
+}
+
+/* || Footer Rules */
+footer{
+    bottom: 0;
+    font-size: 14px;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+    width: 511px;
+}
+
+.credits{
+    padding: 18px 0;
+}
+
+.credits-item{
+    display: inline-block;
+}
+
+.credits-item:last-child{
+    float: right;
+}
+
+.credits-item a{
+    color: #E4B68C;
 }
