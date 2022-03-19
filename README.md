@@ -2,6 +2,8 @@
 # Introduction
 It is a simple website showcasing recipes.
 This project is offered by [the odin project](https://www.theodinproject.com/about), in the final section of their HTML Foundations course. 
+The recipes found on this project are take from
+[bonappetit](https://www.bonappetit.com/).
 
 # Styling
 CSS rules have been added to the website. This update was an assignment of [CSS foundation Section](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations#practice).
