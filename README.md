@@ -6,7 +6,7 @@ The recipes found on this project are take from
 [bonappetit](https://www.bonappetit.com/).
 
 # Styling
-CSS rules have been added to the website. This update was an assignment of [CSS foundation Section](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations#practice).
+CSS rules have been added to the website. This update was an assignment of the [CSS foundation Section](https://www.theodinproject.com/paths/foundations/courses/foundations/lessons/css-foundations#practice).
 
 # What I've Learned
 - Working with HTML text elements.
