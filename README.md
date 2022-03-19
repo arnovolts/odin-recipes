@@ -1,3 +1,4 @@
+![Project screenshot](./images/screenshot.png)
 # Introduction
 It is a simple website showcasing recipes.
 This project is offered by [the odin project](https://www.theodinproject.com/about), in the final section of their HTML Foundations course. 
