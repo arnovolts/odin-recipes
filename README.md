@@ -2,7 +2,7 @@
 # Introduction
 It is a simple website showcasing recipes.
 This project is offered by [the odin project](https://www.theodinproject.com/about), in the final section of their HTML Foundations course. 
-The recipes found on this project are take from
+The recipes found on this project are taken from
 [bonappetit](https://www.bonappetit.com/).
 
 # Styling
